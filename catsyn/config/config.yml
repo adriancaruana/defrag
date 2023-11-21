@@ -1,0 +1,24 @@
+---
+seed: 42
+patients: 1000
+variable_generator:
+  nb_variables: 1
+  variable_kwargs:
+    n_bins: 100
+    distribution: zipf_shuffle
+    distribution_kwargs: 
+      a: 2
+states_generator:
+  nb_states: 50
+  n_start_states: 1
+  model: "directed_extended_barabasi_albert_graph"
+  model_kwargs:
+    n: 50
+    m: 1
+    p: 0.1
+    q: 0
+  state_kwargs:
+    persistence_dict: 
+      min: 0.8
+      max: 0.8
+  

@@ -1,0 +1,15 @@
+catsyn_base_config.yml
+__pycache__
+.ipynb_checkpoints
+results*
+mimic_ex*
+kmapper_test.html
+experiments*
+*.tsv
+networkx
+statistical_experiments/figures
+mimic_feature_set.parquet
+paper_experiments
+statistical_experiments/result_datasets
+thesis_5_event_encoding_experiment.py
+thesis_figures/
